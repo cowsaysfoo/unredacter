@@ -8,7 +8,7 @@ import * as path from "path";
 const guessable_characters = 'abcdefghijklmnopqrstuvwxyz ';
 const max_length = 20;
 const blocksize = 8;
-const threshold = 0.25;
+const threshold = 0.6;
 
 const redact_command = "redact-text";
 const guess_command = "guess-text";
