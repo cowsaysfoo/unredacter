@@ -170,7 +170,7 @@ async function redact(message: any) {
     height: 120,
     show: false,
     webPreferences: {
-      sandbox: true,
+      sandbox: false,
       webSecurity: true,
       contextIsolation: true,
       webviewTag: false,
